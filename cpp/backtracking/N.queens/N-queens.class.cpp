@@ -63,7 +63,7 @@ int main() {
     queens.backtrack();
     result = queens.get_count();
 
-    assert(result = 92);
+    assert(result == 92);
 
     //  포인터로 생성할 경우, 메모리 해제까지 수행해야함
     //N_Queens *queens = new N_Queens(8);
